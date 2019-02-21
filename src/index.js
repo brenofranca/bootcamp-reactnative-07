@@ -1,11 +1,10 @@
-import React from "react";
-import { Provider } from "react-redux";
+import React from 'react';
+import { Provider } from 'react-redux';
 
-import "config/ReactotronConfig";
+import 'config/ReactotronConfig';
+import { store } from 'store';
 
-import { store } from "store";
-
-import createNavigator from "routes";
+import createNavigator from 'routes';
 
 const Routes = createNavigator();
 
